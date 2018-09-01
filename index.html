@@ -19,6 +19,19 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
   <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script>
+    $(function(){
+      $("#includedHeader").load("header.html");
+    });
+    </script>
+      <script>
+    $(function(){
+      $("#includedFooter").load("footer.html");
+    });
+    </script>
 
 </head>
 
@@ -43,29 +56,21 @@
     padding-bottom: 0px;
 
   }
+  .rs_menu{
+    padding-left: 50px;
+
+  }
 </style>
 
 
 <body>
 
   <div class="container">
-    <div class="header clearfix">
-      <nav>
-        <ul class="nav nav-pills pull-right">
-        </ul>
-      </nav>
-      <a href="http://www.britishmuseum.org"><img height="50" src="http://www.britishmuseum.org/images/bmlogo_print.png"></a>
-    </div>
-<div class="navigation">
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="Events.html">Events</a>
-  </li>
-</ul>
-  </div>
-     <div id="includedContent">
-    
-    </div>
+
+
+
+     <div id="includedHeader"></div>
+     <p>ResearchSpace is a collaborative Semantic Web environment designed to use and help build knowledge about the world and its history.</p>
     <div class="row marketing">
 
       <div class="col-lg-4">
@@ -90,25 +95,10 @@
       </div>
     </div>
 
-    <footer class="footer">
-      <div class="sponsor-group">
-        <p><a href="https://mellon.org/"><img id="mellon-logo" src="images/mellon-black-on-white-logo.svg"></a></p>
-        <p class="sponsor-credit">ResearchSpace is funded by the <br><a href="https://mellon.org/">Andrew W. Mellon Foundation</a></p>
-      </div>
-      <p class="sponsor-credit">© 2017<br>Trustees of the <a href="http://britishmuseum.org">British Museum</a></p>
-    </footer>
-
+    <div id="includedFooter"></div>
 
   </div> <!-- /container -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <script>
-    $(function(){
-      $("#includedContent").load("test.html");
-    });
-    </script>
 
 
 </body>

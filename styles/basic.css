@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        min-height: 100vh;
+        max-width: 920px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron h3 {
+    margin-bottom: 20px;
+}
+.jumbotron .lead {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+    border-radius: 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    background-color: #2C3E50;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 20px 40px;
+}
+
+#rs-logo {
+    height: 80px;
+}
+
+#mellon-logo {
+    height: 60px;
+}
+
+.sponsor-group {
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-credit {
+    margin: 0 40px;
+}
+
+.col-lg-12 {
+    margin-top: 40px;
+}
+
+.btn.btn-rs {
+    color: #fff;
+    background-color: HSL(210, 29%, 24.3%);;
+    border-color: #333;
+    /**/
+}
+
+.btn.btn-rs:hover {
+    color: #fff;
+    background-color: HSL(210, 29%, 16%);;
+    border-color: #111;
+}
+
+.about-panel {
+    border-top: 1px solid #e5e5e5;
+    padding: 40px 0;
+    line-height: 1.7;
+}
+
+.jumbotron {
+    background-color: transparent;
+}

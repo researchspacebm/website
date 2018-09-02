@@ -44,13 +44,16 @@ html, body {
 .col-centered{
    float: none;
    margin: 0 auto;
-}
 
+
+
+}
 .carousel-inner img {
 
 
     margin:auto;
-    padding:5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
     width: 80%;
 
@@ -68,8 +71,8 @@ html, body {
 
 #includedFooter {
     vertical-align: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -113,7 +116,7 @@ html, body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    padding: 0px;
+    padding-bottom: 5px;
 }
 .jumbotron image {
     text-align: center;
@@ -201,7 +204,9 @@ body {
 
 .about-panel col-lg-12 {
     border-top: 1px solid #e5e5e5;
-    padding-top: 3px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 1.7;
 }
 .about-panel p {
@@ -210,4 +215,5 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    padding: 0px;
 }

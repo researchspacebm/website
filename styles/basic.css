@@ -4,7 +4,12 @@ html, body {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
+
+
+.row marketing {
+    padding: 0px;
+
+}
 
 
 #includedFooter {
@@ -33,11 +38,12 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5;
 }
 
+.footer p {
+    padding: 0px}
 /* Customize container */
 @media (min-width: 768px) {
     .container {
@@ -53,12 +59,17 @@ html, body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    padding: 0px;
 }
-.jumbotron h3 {
-    margin-bottom: 20px;
+.jumbotron image {
+    text-align: center;
+    padding:0px;
+}
+.jumbotron h5 {
+    margin-bottom: 0px;
 }
 .jumbotron .lead {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-weight: 300;
 }
 .jumbotron .btn {
@@ -69,10 +80,10 @@ html, body {
 
 /* Supporting marketing content */
 .marketing {
-    margin: 40px 0;
+    margin: 5px 0;
 }
 .marketing p + h4 {
-    margin-top: 28px;
+    margin-top: 5px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -101,6 +112,7 @@ body {
 
 #rs-logo {
     height: 80px;
+    padding: 0px;
 }
 
 #mellon-logo {
@@ -133,10 +145,13 @@ body {
     border-color: #111;
 }
 
-.about-panel {
+.about-panel col-lg-12 {
     border-top: 1px solid #e5e5e5;
-    padding: 5px 0;
+    padding-top: 3px;
     line-height: 1.7;
+}
+.about-panel p {
+    padding: 0px;
 }
 
 .jumbotron {

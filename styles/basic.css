@@ -5,15 +5,22 @@ html, body {
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
-.footer {
+
+
+#includedFooter {
+    vertical-align: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 15px;
     padding-left: 15px;
 }
 
 /* Custom page header */
-.header {
-    padding-bottom: 20px;
+#includedHeader {
+    padding-bottom: 5px;
     border-bottom: 1px solid #e5e5e5;
+    vertical-align: 0px;
+    padding-top: 0px;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {

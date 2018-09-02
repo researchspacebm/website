@@ -3,8 +3,16 @@ html, body {
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
 
+.col-sm{
+    text-align: justify;
+    vertical-align: middle;
+    text-align: center;
+
+
+}
+
+.header,
 .mainimage
 {
     padding-bottom: 20px;
@@ -96,7 +104,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     color: #777;
-    border-top: 1px solid #e5e5e5;
+
 }
 
 .footer p {

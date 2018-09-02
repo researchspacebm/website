@@ -17,8 +17,7 @@ html, body {
 
 /* Custom page header */
 #includedHeader {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 0px;
     vertical-align: 0px;
     padding-top: 0px;
 }
@@ -136,7 +135,7 @@ body {
 
 .about-panel {
     border-top: 1px solid #e5e5e5;
-    padding: 40px 0;
+    padding: 5px 0;
     line-height: 1.7;
 }
 

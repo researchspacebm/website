@@ -5,6 +5,60 @@ html, body {
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 
+.mainimage
+{
+    padding-bottom: 20px;
+
+}
+
+/*.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+}
+*/
+#arrowleft,
+#arrowright {
+
+    height: 20px;
+
+}
+/*.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;font-weight: bold;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: ;
+    font-size: 30px;font-weight: bold;
+  color: blue;
+}
+*/
+
+
+.col-centered{
+   float: none;
+   margin: 0 auto;
+}
+
+.carousel-inner img {
+
+
+    margin:auto;
+    padding:5px;
+    display: block;
+    width: 80%;
+
+  }
+
+.carousel slide{
+    background-color: #e5e5e5;
+}
 
 .row marketing {
     padding: 0px;

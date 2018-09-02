@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>ResearchSpace</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/basic.css" />
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -19,8 +21,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
   <![endif]-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 
     <script>
     $(function(){
@@ -37,17 +38,52 @@
 
   <div class="container">
 
+    <div id="includedHeader"></div>
+      <p>ResearchSpace is a collaborative Semantic Web environment designed to use and help build knowledge about the world and its history.</p>
 
-
-     <div id="includedHeader"></div>
-     <p>ResearchSpace is a collaborative Semantic Web environment designed to use and help build knowledge about the world and its history.</p>
     <div class="row marketing">
-      <div class="image"><img src="images/createenrichdiscover.png" width="850"/></div>
+      <div class="mainimage"><img src="images/createenrichdiscover.png" width="850"/></div>
+
+
+
+    <div class="col-centered">
 
       <div class="about-panel col-lg-12">
         <p>ResearchSpace connects information about people, places, periods, things and concepts from different sources without losing their original context, and allows the community to enrich information as a collaborative activity. It structures information as networks of knowledge supporting both a linear and non-linear approach to historical questions and encouraging different perspectives.
         ResearchSpace is open source, open standards, customisable and extensible, designed to be used with a wide range of knowledge based projects and applications.</p>
       </div>
+       <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="slide1" src="images/slide1_graph.png" alt="Los Angeles" width="600" >
+        </div>
+        <div class="carousel-item">
+          <img id="slide2" src="images/slide2_graph.png" alt="Chicago" width="600" >
+        </div>
+        <div class="carousel-item">
+          <img id="slide3" src="images/slide3_graph.png" alt="New York" width="600" >
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <img id="arrowleft" src="images/leftarrow.png" />
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <img id="arrowright" src="images/rightarrow.png" />
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
     </div>
     <div id="includedFooter"></div>
   </div> <!-- /container -->

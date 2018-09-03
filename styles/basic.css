@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: white;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -176,7 +177,7 @@ html, body {
 }
 
 body {
-    background-color: #2C3E50;
+    background-color: azure;
 }
 
 .container {

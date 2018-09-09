@@ -33,6 +33,18 @@
       $("#includedFooter").load("footer.html");
     });
     </script>
+
+    <script>
+    function myFunction(e) {
+        if (e.id == 'menudemo') {
+            window.open("http://demo.researchspace.org", "", "width=1200,height=800,top=100,left=100");
+        }
+        if (e.id == 'git') {
+            window.open("https://github.com/researchspace/researchspace","", "width=1200,height=800,top=100,left=100")
+        }
+    }
+    </script>
+
 </head>
 <body>
 
@@ -51,6 +63,7 @@
       <div class="about-panel col-lg-12">
         <p>ResearchSpace connects information about people, places, periods, things and concepts from different sources without losing their original context, and allows the community to enrich information as a collaborative activity. It structures information as networks of knowledge supporting both a linear and non-linear approach to historical questions and encouraging different perspectives.
         ResearchSpace is open source, open standards, customisable and extensible, designed to be used with a wide range of knowledge based projects and applications.</p>
+        <p>to understand the design objectives of ResearchSpace, see <a href="about.html">About</a></p>
       </div>
        <div id="demo" class="carousel slide" data-ride="carousel" data-interval="7000">
 

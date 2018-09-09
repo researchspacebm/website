@@ -103,6 +103,7 @@ html, body {
     padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    width:100%
 }
 
 /* Custom page header */
@@ -110,6 +111,8 @@ html, body {
     padding-bottom: 0px;
     vertical-align: 0px;
     padding-top: 0px;
+    padding-left: 0px;
+    padding-right:0px;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -121,9 +124,9 @@ html, body {
 /* Custom page footer */
 .footer {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;
     align-items: center;
-    color: #777;
+    color: #777;*/
 
 }
 

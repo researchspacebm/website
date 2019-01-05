@@ -91,20 +91,31 @@ html, body {
     background-color: #e5e5e5;
 }
 
+
+
 .row marketing {
     padding: 0px;
     align-content: center;
 
 }
 
+.includedFooter {
+    align-content: center;
+    text-align: center;
+    position: relative;
+    max-width: 900px;
+    height: 142px; /* .push must be the same height as .footer */
+}
 
-#includedFooter {
-    vertical-align: 0px;
+.push {
+    /*vertical-align: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15px;
-    width:100%
+    width:100%;*/
+    height: 142px; /* .push must be the same height as .footer */
+
 }
 
 /* Custom page header */
@@ -124,22 +135,33 @@ html, body {
 
 /* Custom page footer */
 .footer {
-    display: flex;
-    /*justify-content: space-between;
-    align-items: center;
-    color: #777;*/
+    /*display: flex;*/
+
 
 }
 
 .footer p {
     padding: 0px}
-/* Customize container */
+
+
+/* Customize container
 @media (min-width: 768px) {
     .container {
         min-height: 100vh;
         max-width: 920px;
     }
+}*/
+
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    max-width: 920px;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
+
+
+
 .container-narrow > hr {
     margin: 30px 0;
 }
@@ -261,5 +283,25 @@ body {
 
     margin-left: 100px;
 
+}
 
+.carousel-item active {
+
+
+
+}
+
+.centerMe {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.centerMe h2 {
+
+    text-align: center;
+}
+
+.centerMe h3 {
+
+    text-align: center;
 }

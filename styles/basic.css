@@ -1,312 +1,84 @@
+/*div { border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+*/
+
 html, body {
     height: 100%;
     background-color: white;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-
-.col-sm{
-    text-align: justify;
-    vertical-align: middle;
+    padding:0;
+	}
+.col-sm-6{
     text-align: center;
+    padding-top:10px;
 
 
 }
 
-.title {
+#.col-sm-6 #trustees {
+
+    padding-top: 100px;
+
+
+}
+
+.col-sm-3{
     text-align: center;
-    border-bottom: solid 1px #dedede;
-    margin-bottom: 20px;
-    padding-top: 0px;
-
-}
-
-
-
-.header,
-.mainimage
-{
-    padding-bottom: 20px;
-
-}
-
-/*.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-
-}
-*/
-#arrowleft,
-#arrowright {
-
-    height: 20px;
-
-}
-/*.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 30px;font-weight: bold;
-  color: blue;
-}
-
-.carousel-control-prev-icon:after {
-  content: ;
-    font-size: 30px;font-weight: bold;
-  color: blue;
-}
-*/
-.rs_menu {
-
-    text-align: center;
-
-}
-
-.col-centered{
-   float: none;
-   margin: 0 auto;
-
+    padding-top:10px;
 
 
 }
-.carousel-inner img {
 
+.jumbotron {
 
-    margin:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: block;
-    width: 80%;
-
-  }
-.carousel {
-     border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 10px;
-
-}
-
-.carousel slide{
-    background-color: #e5e5e5;
-}
-
-
-
-.row marketing {
+ background-color: white;
     padding: 0px;
-    align-content: center;
-
 }
-
 .includedFooter {
-    align-content: center;
-    text-align: center;
-    position: relative;
-    max-width: 900px;
-    height: 142px; /* .push must be the same height as .footer */
-}
-
-.push {
-    /*vertical-align: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width:100%;*/
-    height: 142px; /* .push must be the same height as .footer */
+    position:absolute;
+    padding:10px;
+    bottom:0;
+    min-width:99%;
+    height:120px;			/* Height of the footer */
 
 }
 
-/* Custom page header */
-#includedHeader {
-    padding-bottom: 0px;
-    vertical-align: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right:0px;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-}
-
-/* Custom page footer */
-.footer {
-    /*display: flex;*/
-
+.includedHeader {
+        padding:10px;
 
 }
 
-.footer p {
-    padding: 0px}
-
-
-/* Customize container
-@media (min-width: 768px) {
-    .container {
-        min-height: 100vh;
-        max-width: 920px;
-    }
-}*/
 
 .container {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
     max-width: 920px;
-    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    min-height:100%;
+    position:relative;
+
+
 }
 
-
-
-.container-narrow > hr {
-    margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
+#indexbody {
+    padding-top:20px;
+    padding-bottom: 120px; /* Height of the footer */
     text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 5px;
 }
-.jumbotron image {
+#body {
+    padding-top:20px;
+    padding-bottom: 120px; /* Height of the footer */
+
+}
+
+.title{
     text-align: center;
-    padding:0px;
-}
-.jumbotron h5 {
-    margin-bottom: 0px;
-}
-.jumbotron .lead {
-    margin-bottom: 5px;
-    font-weight: 300;
-}
-.jumbotron .btn {
-    padding: 14px 24px;
-    font-size: 21px;
-    border-radius: 0;
+
+    padding-bottom: 15px;
+
 }
 
-/* Supporting marketing content */
-.marketing {
-    margin: 5px 0;
-}
-.marketing p + h4 {
-    margin-top: 5px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 20px;
-    }
-}
-
-body {
-    background-color: azure;
-}
-
-.container {
-    background-color: #FFF;
-    padding: 20px 40px;
-}
-
-#rs-logo {
-    height: 80px;
-    padding: 0px;
-}
-
-#mellon-logo {
-    height: 60px;
-}
-
-.sponsor-group {
-    display: flex;
-    align-items: center;
-}
-
-.sponsor-credit {
-    margin: 0 40px;
-}
-
-.col-lg-12 {
-    margin-top: 40px;
-}
-
-.btn.btn-rs {
-    color: #fff;
-    background-color: HSL(210, 29%, 24.3%);;
-    border-color: #333;
-    /**/
-}
-
-.btn.btn-rs:hover {
-    color: #fff;
-    background-color: HSL(210, 29%, 16%);;
-    border-color: #111;
-}
-
-.about-panel col-lg-12 {
-    border-top: 1px solid #e5e5e5;
-
+.box{
+    padding-bottom: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 1.7;
-}
-.about-panel {
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 10px;
 
 
-}
-
-.about-panel p {
-    padding: 0px;
-}
-
-.jumbotron {
-    background-color: transparent;
-    padding: 0px;
-}
-
-.leftimage {
-
-    margin-left: 100px;
-
-}
-
-.carousel-item active {
-
-
-
-}
-
-.centerMe {
-    padding-top: 40px;
-    padding-bottom: 25px;
-}
-
-.centerMe h2 {
-
-    text-align: center;
-}
-
-.centerMe h3 {
-
-    text-align: center;
-}
-
-.centerMe h3 p {
-
-    text-align: center;
 }

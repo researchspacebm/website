@@ -7,16 +7,23 @@
 html, body {
     height: 100%;
     background-color: white;
-    padding:0;
+    padding:0px;
 	}
-.col-sm-6{
-    text-align: center;
-    padding-top:10px;
 
+.col-sm-6 {
+    text-align:center;
+    padding-top:10px;
 
 }
 
-#.col-sm-6 #trustees {
+hr {
+padding: 0px;
+
+}
+
+
+
+.col-sm-6 #trustees {
 
     padding-top: 100px;
 
@@ -29,7 +36,11 @@ html, body {
 
 
 }
+.row
+{
 
+padding: 0px;
+}
 .jumbotron {
 
  background-color: white;
@@ -37,7 +48,7 @@ html, body {
 }
 .includedFooter {
     position:absolute;
-    padding:10px;
+    padding:0px;
     bottom:0;
     min-width:99%;
     height:120px;			/* Height of the footer */
@@ -54,6 +65,7 @@ html, body {
     max-width: 920px;
     min-height:100%;
     position:relative;
+    padding:0px;
 
 
 }

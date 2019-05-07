@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+    <link rel="icon"
+      type="image/png"
+      href="rslogo_blackonwhite_crop_9gX_icon.ico">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -33,6 +36,11 @@
       $(".includedFooter").load("footer.html");
     });
     </script>
+   <script>
+    $(function(){
+      $("#rightframe").load("rightframe.html");
+    });
+    </script>
 
     <script>
     function myFunction(e) {
@@ -48,11 +56,18 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="includedHeader"></div>
-
     <div id="body">
-        <div class="title"><h3>Publications</h3></div>
+        <div id="containerid" class="container">
+   <div id="contentcontainer">
+
+                <div class="includedHeader"></div>
+
+                <div class="row">
+
+
+                <div id="indexbody" class="col-sm-9">this is where the main text goes in this div. this is where the main text goes in this div.
+
+                      <div class="title"><h3>Publications</h3></div>
       <div class="jumbotron">
             <div class="row">
                 <div class="row"><div class="col-sm">
@@ -117,10 +132,21 @@ Data and Practices in ResearchSpace</h4><p>Dominic Oldman & Diana Tanase (Britis
             </div>
         </div>
 
-    </div>
-      <div class="includedFooter"></div>
-  </div>
 
+
+
+
+                </div>
+                <div id="rightframe" class="col-sm-3"></div>
+
+                </div>
+   </div>
+
+      <div class="includedFooter"></div>
+
+  </div>
   <!-  - /container -->
+
+
 </body>
 </html>

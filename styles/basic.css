@@ -133,6 +133,8 @@ padding: 0px;
 .highlight{
     clear:both ;
     padding:10px;
+    display: block;
+    width:100%;
 
 
 }

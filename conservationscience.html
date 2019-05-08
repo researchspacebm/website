@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ResearchSpace</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+    <link rel="icon"
+      type="image/png"
+      href="rslogo_blackonwhite_crop_9gX_icon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  <![endif]-->
+
+
+    <script>
+    $(function(){
+      $(".includedHeader").load("header.html");
+    });
+    </script>
+      <script>
+    $(function(){
+      $(".includedFooter").load("footer.html");
+    });
+    </script>
+     <script>
+    $(function(){
+      $("#rightframe").load("rightframe.html");
+    });
+    </script>
+
+    <script>
+    function myFunction(e) {
+        if (e.id == 'menudemo') {
+            window.open("http://demo.researchspace.org", "", "width=1200,height=800,top=100,left=100");
+        }
+        if (e.id == 'git') {
+            window.open("https://github.com/researchspace/researchspace","", "width=1200,height=800,top=100,left=100")
+        }
+    }
+    </script>
+
+</head>
+<body>
+  <div id="containerid" class="container">
+
+            <div id="contentcontainer">
+                      <div class="includedHeader"></div>
+
+                <div class="row">
+                    <div id="indexbody" class="col-sm-9">
+                        <!DOCTYPE html>
+
+                        <h4>Presentation Script - Why Linked Data for Conservation?</h4>
+
+
+<ul>
+    <li>The ResearchSpace project is part of a critical movement that addresses cultural and art documentation in terms of its relationship, or interface, to society, past, present and future.</li>
+    <li>In conservation, the traditional detached and neutral tradition is also being challenged, not just in terms of applying sympathetic conservation methods, but issues of why and how we choose what to conserve. More conservators are involved in significance and relevance issues and require a more integrated approach with other disciplines, and be part of a wider conversation.</li>
+    <li>New technologies come along but old methods, standards and attitudes are hard wired and can be perpetuated by new technology.</li>
+    <li>Linked data has been unsuccessful in providing general users and researchers with the necessary elements for sustainability in a distributed cultural heritage and humanities environment and often creates new types of silo.</li>
+    <li>So,  -“Why Linked Data for conservators?”-  is not the right question and implies a technically led approach that is inappropriate for moving progressive knowledge methods into a digital environment.</li>
+    <li>It's time to review, not just the technology, but the approach that knowledge workers, researchers and institutions apply to networked environments, to effectively support their dynamic (not static) and complex activities.</li>
+    <li>The knowledge associated with the existence of things in relation to changing contexts and processes over time, is in contrast to the detached essence used in traditional documentation systems and standards, and this difference is an increasingly important conservation issue.</li>
+    <li>Our current, object-focussed attention, prevents a progressive approach to participatory knowledge generation, exchange and development, originally envisaged by a fluid and communication based Internet.</li>
+    <li>Equally, the risk is that Linked Data (technically linking distributed data) is put forward by technologists as a way of solving all the perceived problems, but simply transfers existing fundamental issues into another technology-led solution.</li>
+    <li>Current digital abstraction, categorisation, and organisation of information is out of step with the analytical abstractions that experts require. Many humanists are worried that these new open world systems will generate more work, but deliver disproportionate benefits and prevent progressive development of the work itself.</li>
+    <li>They are bound, and limited to, an instrumentation governed by outmoded institutional conventions, both technical and documentary. These conventions are linked to objectives of technical and administrative efficiency, scale and to an object-focussed position. While having some utility, the efficiency is illusory because of the limitations and bias of the resulting data. Linked Data can effectively ‘carry’ these existing issues into open world networks without solving them, and can even magnify them.</li>
+    <li>In working with expert information, including conservation information, its development within a computer system - the design and specifications of a data system - should be bound to analytical concerns - as part of true digital knowledge working. This analytical focus means that subject experts should be directly involved with, and be the authors of the data and it's design, and how it is expressed - which is necessarily an ongoing and changing process. </li>
+    <li>Linked Data is associated with the ability to publish distributed data that can be linked over the Web. But this does not confront the issue of the relationship between the expert and the system -  and the authoring of data directly related to an analytical investigation, instead of simply providing a useful but ancillary reference.  </li>
+    <li>Linked Data itself does not resolve the difference between, and the progression from, a network of published ‘essential’ facts (something that has no agreed definition) to a participatory network of historically contextual knowledge which directly addresses research theory, methods, thinking and argumentation.  </li>
+    <li>This means that instrumentation based Linked Data fails to provide a sustainability model by failing to address the difference between an open Internet based system, compared to a closed institutional one from which much of the data currently originates. Closed in this sense doesn’t simply mean physically closed, but closed in its closed design and form.</li>
+    <li>The idea that simply opening up data which has been designed with the continued mindset of closed institutional standards governed by database modellers rather than subject experts will somehow be transformed into hugely valuable knowledge when released into the open, and linked, is incorrect. The design imperatives of collaborative and participatory networks are different, varied and bottom up. Making existing models of data (that have changed little from the 1950s) linkable is not a solution in itself.</li>
+    <li>In understanding this failure, some projects, including ones involving conservation care, are starting to look beyond these limitations leading to a reevaluation of existing forms of documentation data. For example, Reshaping the Collectible at the Tate, funded by the Andrew Mellon Foundation and directed by Tate’s Head of Collection Care Research, Pip Lawrenson looks into the network of processes and relationships hidden from institutional documentation. Their focus on conserving knowledge around  contemporary art is equally applicable to historical art and culture. Whether they use Linked Data or some other technology is a secondary concern, but will be influenced by the extent to which it can support these new perspectives.</li>
+    <li>ResearchSpace represents a change in the way that research systems are designed.</li>
+    <li>It confronts the issue of subject-object dualism, something that is embedded in computer systems as ‘common sense’ but which limits its potential to present more complex interrelations.</li>
+    <li>The second is to allow the researcher to transform what computer models and ontologies describe as distinct entities, into processes that closely reflect reality and change.</li>
+    <li>In other words, the solution requires human curation and assertion of subject expert knowledge into data systems..</li>
+    <li>While Linked Data offers some functional benefits in terms of linking distributed data, its design is still determined (even when users are consulted) by a top down computer science world view.</li>
+    <li>In order for Linked Data to be useful beyond linking essential information its application needs to be defined and used bottom up, it must address and adequately express wider interrelated concepts, and therefore be authored directly by subject experts as required, and address daily, or long term, questions and thinking. It may help facilitate an ongoing collaborative and participatory human conversation (an evidence based debate) that can be processed effectively by computers through a semantic framework.</li>
+    <li>ResearchSpace is designed to allow subject experts to design their own conversations.</li>
+
+
+
+</ul>
+                    </div>
+
+
+                        <div id="rightframe" class="col-sm-3"></div>
+
+                    </div>
+
+            </div>
+
+
+      <div class="includedFooter"></div>
+  </div>
+  <!-  - /container -->
+
+</body>
+</html>

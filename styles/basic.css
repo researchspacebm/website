@@ -115,14 +115,14 @@ padding: 0px;
 
 #indexbody p {
 
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
 
 
 }
 #indexpage p{
 
-    font-weight: bold;
+    font-weight: normal;
 
 
 
@@ -130,12 +130,17 @@ padding: 0px;
 
 
 
-.highlight{
-    clear:both ;
-    padding:10px;
-    display: block;
-    width:100%;
 
+.highlight {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 10px;
+
+}
+
+.highlight img{
+    padding: 10px;
 
 }
 

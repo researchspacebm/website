@@ -100,10 +100,38 @@ padding: 0px;
 
 
 }
-#rightframe div p {
-    font-size: 10px;
+#rightframe p {
+    font-size: 11px;
 
 }
+
+
+#rightframe h2 {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#rightframe h3 {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#rightframe h4 {
+    font-size: 14px;
+
+}
+#rightframe h5 {
+    font-size: 13px;
+
+}
+#rightframe h6 {
+    font-size: 12px;
+
+}
+
+
 
 
 #indexbody {

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ResearchSpace</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+    <link rel="icon"
+      type="image/png"
+      href="rslogo_blackonwhite_crop_9gX_icon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  <![endif]-->
+
+
+    <script>
+    $(function(){
+      $(".includedHeader").load("header.html");
+    });
+    </script>
+      <script>
+    $(function(){
+      $(".includedFooter").load("footer.html");
+    });
+    </script>
+   <script>
+    $(function(){
+      $("#rightframe").load("rightframe.html");
+    });
+    </script>
+
+    <script>
+    function myFunction(e) {
+        if (e.id == 'menudemo') {
+            window.open("http://demo.researchspace.org", "", "width=1200,height=800,top=100,left=100");
+        }
+        if (e.id == 'git') {
+            window.open("https://github.com/researchspace/researchspace","", "width=1200,height=800,top=100,left=100")
+        }
+    }
+    </script>
+
+</head>
+<body>
+ <div id="containerid" class="container">
+   <div id="contentcontainer">
+
+                <div class="includedHeader"></div>
+
+                <div class="row">
+
+
+                <div id="indexbody" class="col-sm-9">
+
+
+
+
+<h3>RS Intellectual Architecture</h3>
+
+                    <p>4th September 2019</p>
+
+                    <p>Dominic Oldman / Diana Tanase</p>
+
+ <p>work in progress</p>
+
+<h4>Introduction</h4>
+
+<p>ResearchSpace (RS) is an open source community knowledge system that uses structured data in a ‘relational’ and 'contextual' way to support (and merge) both qualitative and quantitative research methods. This document provides a summary of the intellectual architecture of the RS system to inform generally, and inform those involved in the community development of its technical architecture. It is based on a large body of research, and is part of a progressive interdisciplinary academic movement aimed at changing the focus of humanistic analysis.</p>
+
+<p>Practically, the RS approach is closer to the way in which modern research is actually done, allowing the complexity of the real world to be abstracted as part of the analytical process. Rather than just act as a repository of references it supports thinking and knowledge generation, making a clear step away traditional essentialist or substantialist data reference systems. The aim is a system that responds to the needs of participatory interdisciplinary academic networks.</p>
+
+                    <p>The approach might be described as belonging to ‘relational scholarship’, with an emphasis on relations and viewing entities as interdependent processes which have no essential description, but which change, along with our knowledge, over time, as part of a social and historical dynamics. The system employs an ontology as an initial, but crucial integrating layer, underpinning an onto-epistemology system which reflects reality but understands academic abstraction.</p>
+                    <h4>Philosophy</h4>
+
+    <p>Most conceptions of relations, including those in computer science, are viewed in terms of external relations - the perception that relations are external and separate to the things they connect. This means that, in the main, things are defined by a set of properties that identify them and distinguish them from other things. These qualities are relatively static regardless of connections or links between them. Computer database records, for example, can be seen as one manifestation of this mindset, but also other paradigms like monads, design patterns, functional programming, but also data hiding and object oriented programming. Connections are seen as transactional paths that don't affect the qualities and characteristics of the things themselves. In contrast to textual narratives, this creates simplistic models and ultimately the fragmentation of knowledge - a feature of many elements of modern society, including digital information networks and academic frameworks themselves.</p>
+
+    <p>The substantialist approach limits what we can achieve with computer systems and networks, and therefore limits interdisciplinary societal research which could derive large benefits from computers and digital networks. Despite the dominance of external relations as a philosophical position woven into modern technology, this worldview is being challenged by many disciplines which require the modeling of real complex relations, difficult to convey solely in textual narrative, but essential for better and critical analysis. The relational approach never views a thing as a static entity, but instead as a changing process. Its relations to other processes mean that its qualities can change as a result of changes to its relations or the processes (things) that are related to it. In other words, entities are processes that are internally, not externally, linked to one another. It recognises that these things, or processes, change over time alongside our changing knowledge of them. RS is an attempt to capture more elements of relational methodology and reduce the distance between the researcher and the computer system.</p>
+
+                    <h4>Key Vision concepts are:</h4>
+
+    <ul>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KV1 - Dynamic rather than static.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KV2 - Processes rather than substances.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KV3 - Different vantage points and different levels of resolution.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KV4 - Relations across space and time, not absolute descriptions.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KV5 - Contextualised instance modelling as part of the researcher’s ongoing analysis, not predefined by a single static instrumental abstraction.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">Key Practice Concepts</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP1 - Tools are always in contact and make use of the underlying semantic data. Only certain technical instrumentation should be ‘off-knowledgebase’.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP2 - Realising relations (connection) is always the underlying consideration.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP3 - Anything is an arguable resource.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP4 - Contextualisation applies to discovery as well as authoring and visualisation.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP5 - Consistency of principles across tools.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP6 - Tools are resources for other tools and produce resources for use in other tools. Tools have relations.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP7 - Avoid pre-determined models where possible.</pre>
+      </li>
+      <li>
+        <pre style="background-color:#ffffff;color:#000000;font-family:'Menlo';font-size:9.0pt;">KP8 - Use techniques that provide scale in modelling.</pre>
+      </li>
+    </ul>
+
+
+
+
+                </div>
+                <div id="rightframe" class="col-sm-3"></div>
+
+                </div>
+   </div>
+
+      <div class="includedFooter"></div>
+
+  </div>
+  <!-  - /container -->
+</body>
+</html>
+
+

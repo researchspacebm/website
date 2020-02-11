@@ -112,6 +112,12 @@ padding: 0px;
 
 }
 
+ul {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
 #rightframe h3 {
     font-size: 15px;
     font-weight: bold;
@@ -152,6 +158,32 @@ padding: 0px;
 
     font-weight: normal;
 
+}
+
+.image {
+    width: 500px;
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 80%;
+  }
+}
+
+
+.modal-dialog{
+
+width:500px;
+
+}
+.modal-body
+{
+width:500px;
+border:1px red;
+
+}
+.modal-footer{
+width:500px;
 }
 
 iframe {

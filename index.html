@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/modalimage.css" />
     <link rel="icon"
       type="image/png"
       href="rslogo_blackonwhite_crop_9gX_icon.ico">
@@ -16,6 +17,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="./script/modalwindow.js"></script>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -82,13 +84,39 @@
                     multiple perspectives (in terms of different vantage points of the same reality), and connections across space and time.</li>
                    </b></ul>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/MaAv0SE7wis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
                     </ul>
                     </div>
+                    <div>
 
+
+                      <div class="container1">
+                            <img src="images/application/semantic%20narratives.png"  style="max-width:100%;cursor:pointer"
+                            onclick="onClick(this)" class="modal-hover-opacity">
+                          </div>
+                          <div class="container1">
+                            <img src="images/application/knowledgemaps.png" style="max-width:100%;cursor:pointer"
+                            onclick="onClick(this)" class="modal-hover-opacity">
+                          </div>
+
+
+                        <div id="modal01" class="modal" onclick="this.style.display='none'">
+                          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                          <div class="modal-content">
+                            <img id="img01" style="max-width:80%">
+                          </div>
+                        </div>
+
+
+
+
+                    </div>
+                     <div>
+
+
+
+
+
+                    </div>
 
                 </div>
                     <div id="rightframe" class="col-sm-3"></div>
@@ -101,5 +129,13 @@
 
   </div>
   <!-  - /container -->
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+</script>
 </body>
 </html>

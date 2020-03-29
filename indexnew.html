@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="keywords" content="not metaphactory,not metaphacts, open source,non-proprietary,research,system,platform,infrastructure,Digital Humanities,React">
+​
+  <title>ResearchSpace</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/basic.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/modalimage.css" />
+    <link rel="icon"
+      type="image/png"
+      href="rslogo_blackonwhite_crop_9gX_icon.ico">
+​
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="./script/modalwindow.js"></script>
+​
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+​
+  <![endif]-->
+​
+​
+    <script>
+    $(function(){
+      $(".includedHeader").load("header.html");
+    });
+    </script>
+      <script>
+    $(function(){
+      $(".includedFooter").load("footer.html");
+    });
+    </script>
+   <script>
+    $(function(){
+      $("#rightframe").load("rightframe.html");
+    });
+    </script>
+​
+    <script>
+    function myFunction(e) {
+        if (e.id == 'menudemo') {
+            window.open("http://demo.researchspace.org", "", "width=1200,height=800,top=100,left=100");
+        }
+        if (e.id == 'git') {
+            window.open("https://github.com/researchspace/researchspace","", "width=1200,height=800,top=100,left=100")
+        }
+    }
+    </script>
+​
+</head>
+<body>
+ <div id="containerid" class="container">
+   <div id="contentcontainer">
+​
+                <div class="includedHeader"></div>
+
+                <div class="row">
+
+                <div id="indexbody" class="col-sm-12">
+​
+                    <div class="indexpage">
+
+                    <h5 align="center"><b>ResearchSpace is a new type of contextualising knowledge system. It promotes collaborative interdisciplinary research
+                        allowing people to grow knowledge that relates to and reveals different aspects of society including material culture.</b></h5>
+                    <p align="center"><ul style="font-weight: 80";>
+                        <li>It supports greater diversity of knowledge from participation and provides for 'Standpoint' and 'Strong Objectivity'.</li>
+                        <li>It is based on a relational approach to research focussed on dynamic process, rather than the tradition of Western static substantialism.</li>
+                        <li> It provides a way for institutions to transform legacy data, bring it in line with other progressive engagement initiatives, and provide a wider and inclusive global worldview.</li>
+                        <li>It allows this new progressive and diverse data to challenge established data communication infrastrutures which monopolise the Web.</li>
+                        <li>It allows non-technical subject experts to become authors of meaningful forms of structured data, without pre-determined data models, and to visual them in different ways.</li>
+                        <li>Underpinned by a model of argumentation it promotes different levels of detail, or resolution,
+                    multiple perspectives (in terms of different vantage points of the same reality), and connections across space and time.</li>
+                   </ul></p>
+                        <h4 align="center"><b>ResearchSpace Project Overview</b></h4>
+                        <p align="center"><iframe height="560" src="https://www.youtube.com/embed/MaAv0SE7wis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                    </ul>
+                    </div>
+                    <div style="height: 400px;padding-top: 10px;">
+                        <h5 align="center" style="color: darkblue;padding: 0;">ResearchSpace is an open source project uncompromisingly designed by Cultural Heritage and Humanities experts and NO proprietary licencing is required to download the source code and use it. </h5>
+                            <h5 align="center" style="padding: 0;color: darkblue;">see <a href="https://github.com/researchspace">github</a> for details and talk to us if you would like help with your <a href="mailto:researchspace@britishmuseum.org?subject=My ResearchSpace project"><img height="20px" src="images/icons/email.png" />ResearchSpace project</a></h5>
+                            <div style="padding-top: 10px;"><img style="padding-left: 10px;" align="right" src="images/application/siemens.png" height="300px" /><h5><b><br/><br/>ResearchSpace Semantic Search has been adopted by industry - for example Siemens,
+                            but is available as open source software to the community, designed to work with the complexity of humanities information. See below.</b></h5></div>
+
+
+                        ​</div>
+                    <div>
+​                           <H4 align="center" style="padding-top: 10px";><b>ResearchSpace Integrated Semantic Applications</b></H4>
+​                        <div  style="display: flex;padding-bottom: 50px;" >
+                            <div class="container1" style="flex:50%;cursor: pointer;padding-right: 10px;  ">
+                                <h5>Semantic Narrative</h5>
+                                <p>Combine text with semantic data </p>
+                                <img id="rs1" src="images/application/semantic%20narratives.png"  style="max-width:100%;"
+                                onclick=hi(this) alt="Semantic Narative">
+                            </div>
+
+                            <div class="container1" style="flex:50%; cursor: pointer; padding-left: 10px; ">
+                                <h5>Knowledge Maps</h5>
+                                <p>Visually author ontology driven Linked Data</p>
+                                <img id="rs2" src="images/application/knowledgemaps.png" style="max-width:100%;"
+                                onclick=hi(this) alt="Knowledge Maps">
+                            </div>
+                        </div>
+
+                        <div style="display: flex;padding-bottom: 50px;">
+                            <div class="container1" style="flex:50%; cursor: pointer;padding-right: 10px; ">
+                                <h5>Image Graph Authoring</h5>
+                                <p>Annotate Images into LOD Knowledge Maps</p>
+                                <img id="rs3" src="images/application/imagega.png" style="max-width:100%;"
+                                onclick=hi(this) alt="Image Graph Authoring">
+                            </div>
+​
+                            <div class="container1" style="flex:50%; cursor: pointer; padding-left: 10px;">
+                              <h5>Semantic Search</h5>
+                                <p>Search using real world context</p>
+                                <img  id="rs4" src="images/application/semsearch.png" style="max-width:100%;"
+                                onclick=hi(this) alt="Semantic Search">
+                            </div>
+                        </div>
+                        <div style="display: flex;padding-bottom: 50px;">
+                            <div class="container1" style="flex:50%; cursor: pointer; padding-right: 10px;">
+                                <h5>Linked Data Management</h5>
+                                <p>Manage your systems and control your data</p>
+                                <img id="rs5" src="images/application/admin.png" style="max-width:100%; border-width: thin;border-style: solid;border-color: black"
+                                onclick=hi(this) alt="Linked Data Management">
+                            </div>
+                            <div class="container1" style="flex:50%; cursor: pointer; padding-left: 10px;">
+                                <h5>Knowledge Board</h5>
+                                <p>Collect and organise your knowledge</p>
+                                <img id="rs6" src="images/application/clipboard.png" style="max-width:100%;"
+                                onclick=hi(this) alt="Knowledge Board">
+                            </div>
+                        </div>
+​
+​
+                       <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              <div id="caption"></div>
+                            </div>
+​
+​
+​
+​
+                    </div>
+
+​
+                </div>
+
+​
+​
+                </div>
+   </div>
+​
+      <div class="includedFooter"></div>
+​
+  </div>
+  <!-  - /container -->
+​<script>
+  var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+function hi(e){
+  modal.style.display = "block";
+  modalImg.src = e.src;
+  captionText.innerHTML = e.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+ </script>
+
+</body>
+</html>
